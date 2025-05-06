@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Pages Directory</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 2rem;
+            background-color: #2A1747;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+        .landing-pages {
+            display: grid;
+            gap: 1.5rem;
+        }
+        .landing-page {
+            padding: 1.5rem;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .landing-page:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .landing-page h2 {
+            margin-top: 0;
+            color: #000;
+        }
+        .landing-page a {
+            display: inline-block;
+            padding: 0.8rem 1.5rem;
+            background-color: #000;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.2s;
+        }
+        .landing-page a:hover {
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="landing-pages">
+            <div class="landing-page">
+                <h2>QR1 - For CEOs</h2>
+                <p>Highlight the CEO pain of AI strategy.</p>
+                <a href="qr1/index.html">View Landing</a>
+            </div>
+            <div class="landing-page">
+                <h2>QR2 - For Female Founders</h2>
+                <p>Highlights founders who want to build with low-code.</p>
+                <a href="qr2/index.html">View Landing</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
